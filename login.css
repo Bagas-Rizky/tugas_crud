@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  outline: none;
+  color: #5c4b51;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004a76,
+    #00818d,
+    #00b56c,
+    #9dde0e
+  );
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 425px;
+  height: auto;
+  background: #fff;
+  padding: 35px 50px;
+  border-radius: 2px;
+  box-shadow: 1.5px 2.4px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form .title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.form .input_wrap {
+  margin-bottom: 20px;
+  width: 325px;
+  position: relative;
+}
+
+.form .input_wrap:last-child {
+  margin-bottom: 0;
+}
+
+.form .input_wrap label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form .input_wrap input {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.form .input_wrap .input {
+  background: #e3e3e3;
+  padding-right: 35px;
+}
+
+.form .input_wrap .input:focus {
+  border-color: #1dbf73;
+}
+
+.form .input_wrap .error_msg {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: red;
+  display: none;
+}
+
+.form .input_wrap .btn {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  background: #1dbf73;
+  cursor: pointer;
+}
